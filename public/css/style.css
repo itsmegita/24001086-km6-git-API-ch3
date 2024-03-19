@@ -1,0 +1,373 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navigation */
+.navbar {
+  background-color: #f1f3ff;
+}
+
+.logo-nav {
+  width: 100px;
+  height: 34px;
+  top: 25px;
+  left: 136px;
+  background-color: #0d28a6;
+}
+
+.navbar-nav {
+  top: 24px;
+  left: 864px;
+  gap: 32px;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.container .btn {
+  border-radius: 2px;
+  padding: 8px 12px 8px 12px;
+  gap: 10px;
+  background-color: #5cb85f;
+  color: #ffffff;
+}
+
+/* main section */
+#main {
+  background-color: #f1f3ff;
+}
+
+.overlay-title {
+  width: 568px;
+  height: 108px;
+  top: 177px;
+  left: 136px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #000000;
+}
+
+.overlay-description {
+  width: 468px;
+  height: 60px;
+  top: 301px;
+  left: 136px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+#main .btn {
+  width: auto;
+  height: auto;
+  top: 377px;
+  left: 136px;
+  border-radius: 2px;
+  padding: 8px 12px;
+  gap: 10px;
+  background-color: #5cb85f;
+}
+
+#main .btn-brand {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+#main a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* our-services section */
+.icon-paragraf {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  gap: 16px;
+}
+
+.paragraf {
+  width: 255px;
+  height: 20px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+/* why-us section */
+.card-img-top {
+  width: 32px;
+  height: 32px;
+}
+
+/* testimonial */
+#testimonial h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 150px;
+  color: #000000;
+}
+
+.testimonial-p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.carousel {
+  background-color: #f1f3ff;
+  width: 619px;
+  height: 270px;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+}
+
+.carousel-item .testimonial {
+  width: 415px;
+  height: auto;
+  font-weight: 300;
+  font-size: 14px;
+  color: #000000;
+}
+
+.carousel-item h3 {
+  width: 415px;
+  height: auto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+/* CTA Banner */
+#cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d28a6;
+  width: 1168px;
+  height: 326px;
+  color: #ffffff;
+  border-radius: 13px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+#cta .container {
+  text-align: center;
+}
+
+#cta h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+#cta p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#cta .btn {
+  background-color: #5cb85f;
+  color: #ffffff;
+  width: auto;
+  height: auto;
+  border-radius: 2px;
+  padding: 8px 12px;
+  margin-top: 20px;
+}
+
+/* faq */
+#faq {
+  width: 1168px;
+  height: 344px;
+  margin: 5px auto;
+  margin-top: 100px;
+  color: #000000;
+}
+
+.col-md-6 .faq-h2 {
+  width: 368px;
+  height: 36px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.col-md-6 .faq-p {
+  width: 368px;
+  height: 20px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+#accordion-one {
+  margin-bottom: 16px;
+}
+
+.accordion-button {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+/* footer */
+#footer {
+  width: 1168px;
+  height: 344px;
+  margin-left: 180px;
+}
+
+.footer-p {
+  color: #000000;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.footer-icon {
+  color: #000000;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#footer img {
+  margin-right: 16px;
+}
+
+.copyright {
+  color: #000000;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  width: 268px;
+  height: 70px;
+  margin-left: 150px;
+}
+
+.logo-cr {
+  width: 100px;
+  height: 34px;
+  background-color: #0d28a6;
+}
+
+/* find car */
+#find-car .container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.15);
+  margin-top: -50px;
+}
+
+.form-select option:checked {
+  background-color: #c9e7ca;
+}
+
+#find-car .btn {
+  background-color: #5cb85f;
+  border-radius: 2px;
+  padding: 8px 12px;
+}
+
+/* cars */
+#cars {
+  background-color: #ffffff;
+  margin-top: 20px;
+}
+
+#cars .card {
+  height: 586px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.cars-photo {
+  width: 303px;
+  height: 222px;
+  object-fit: cover;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.card-title {
+  width: 285px;
+  height: 20px;
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.card-text {
+  flex-grow: 1;
+}
+
+.row p {
+  padding-top: 2px;
+}
+
+/* responsive */
+@media only screen and (max-width: 576px) {
+  #main .btn {
+    width: 25%;
+  }
+
+  #testimonial .carousel {
+    width: 500px;
+    height: 400px;
+  }
+
+  .carousel-item img {
+    order: -1;
+    margin-top: 20px;
+  }
+
+  .carousel-item .col {
+    flex-direction: column;
+  }
+
+  .testi-col {
+    margin-top: 20px;
+  }
+
+  #cta {
+    width: fit-content;
+    height: 500px;
+  }
+
+  #footer {
+    margin: 0;
+  }
+
+  #footer .copyright {
+    margin: 16px 0;
+  }
+}
